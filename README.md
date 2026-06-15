@@ -1,4 +1,5 @@
-Derek Chen website
+# Prince Kumar Portfolio
+
 
 Toolchain:
 - Next.js v15.x
