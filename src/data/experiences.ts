@@ -28,6 +28,28 @@ const createExperienceId = (company: string): string => {
 
 const experiencesData: ExperienceWithoutId[] = [
     {
+        title: 'Software Engineer Intern',
+        company: 'Jilo Health',
+        companyLink: 'https://jilohealth.com/',
+        period: 'April 2026 – May 2026',
+        location: 'Pune, India',
+        positions: [
+            {
+                title: 'Software Engineer Intern',
+                period: 'April 2026 – May 2026',
+                shortDescription:
+                    'Designed and built a 0-to-1 ETL integration architecture with modular adapters (MySQL, PostgreSQL, REST) to sync unstandardized hospital databases to a strict Supabase schema. Automated a high-concurrency calling infrastructure by engineering a priority-based scheduler and campaign queue. Developed a custom scheduling algorithm to intelligently outbound tasks, significantly increasing system throughput and operational efficiency.',
+            },
+        ],
+        description: [
+            'Designed and built a 0-to-1 ETL integration architecture with modular adapters (MySQL, PostgreSQL, REST) to sync unstandardized hospital databases to a strict Supabase schema.',
+            'Automated a high-concurrency calling infrastructure by engineering a priority-based scheduler and campaign queue, optimizing task-dispatch system.',
+            'Developed a custom scheduling algorithm to intelligently outbound tasks, significantly increasing system throughput and operational efficiency.',
+            'Architected a stateful feedback-loop system to ingest real-time operational context, enabling dynamic updates to core data summaries for enhanced system intelligence.',
+        ],
+        skills: ['ETL', 'Supabase', 'PostgreSQL', 'MySQL', 'Node.js', 'System Architecture'],
+    },
+    {
         title: 'Software Engineer Intern - Login Management Team',
         company: 'Charles Schwab',
         companyLink: 'https://www.schwab.com/',
