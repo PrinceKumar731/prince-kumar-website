@@ -16,13 +16,13 @@ export default function HomeHeroSection() {
                     <h1 className='text-5xl md:text-7xl font-bold text-foreground mb-4'>
                         Prince Kumar
                         <TypeAnimation
-                            sequence={['Software Engineer', 1000, 'Full Stack Developer', 1000, 'Problem Solver', 1000]}
+                            sequence={['', 500, '', 500, '', 500]}
                             wrapper='span'
                             speed={50}
                             style={{
-                                fontSize: '0.5em',
+                                fontSize: '1em',
                                 display: 'inline-block',
-                                marginLeft: '12px',
+                                marginLeft: '8px',
                                 color: 'var(--primary)',
                             }}
                             repeat={Infinity}
