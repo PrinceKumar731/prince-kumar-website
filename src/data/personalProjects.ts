@@ -11,6 +11,39 @@ export type PersonalProject = {
 
 export const projects: PersonalProject[] = [
     {
+        id: 'colaboard',
+        title: 'Colaboard',
+        description: `A real-time collaborative whiteboard inspired by Excalidraw, designed for high-performance visual brainstorming. It features a Redis-backed state replay system, allowing users to see board history. Built with a Spring Boot backend and React frontend, it uses STOMP over WebSockets for seamless multi-user synchronization and room-based sharing. Deployed using Nginx for efficient request handling.`,
+        shortDescription: `Real-time collaborative whiteboard with Redis-backed state replay and room-based sharing.
+Features live multi-user synchronization and a sleek drawing interface inspired by Excalidraw.`,
+        image: '/images/projects/colaboard.png',
+        technologies: ['React', 'Vite', 'Spring Boot', 'WebSocket', 'STOMP', 'Redis', 'Nginx'],
+        href: 'https://github.com/PrinceKumar731/COLABOARD',
+        period: 'Present',
+    },
+    {
+        id: 'redstone',
+        title: 'RedStone',
+        description: `A desktop Minecraft server manager that removes the technical complexity of hosting local servers. It provides a modern web dashboard for creating and managing servers without manual configuration of JARs or Java runtimes. Built with Spring Boot and Electron, it includes NGROK for easy tunneling, a bundled Windows installer, and custom Java runtime for a one-click experience.`,
+        shortDescription: `Desktop app with a web dashboard for one-click local Minecraft server hosting and management.
+Bundles Java runtime and Windows installer to simplify server setup for non-technical users.`,
+        image: '/images/projects/redstone.png',
+        technologies: ['Java', 'Spring Boot', 'Electron', 'NGROK', 'Windows Installer'],
+        href: 'https://github.com/PrinceKumar731/REDSTONE',
+        period: 'Present',
+    },
+    {
+        id: 'cloudit',
+        title: 'CloudItz',
+        description: `A full-stack cloud media management platform for organized, folder-based photo storage. It provides real-time updates as media is processed and managed. The platform utilizes a Spring Boot backend for scalable data handling and integrates external storage APIs for secure, efficient media organization and retrieval.`,
+        shortDescription: `Full-stack cloud media manager for folder-based photo organization and real-time updates.
+Combines Spring Boot backend with React frontend for a scalable media management solution.`,
+        image: '/images/projects/cloudit.png',
+        technologies: ['Java', 'Spring Boot', 'React', 'JavaScript', 'Cloud Storage'],
+        href: 'https://github.com/PrinceKumar731/CLOUDITZ',
+        period: 'Present',
+    },
+    {
         id: 'newscaster-ai',
         title: 'NewsCasterAI',
         description: `An end-to-end automated news production platform leveraging Google Gemini and multimodal AI. The system automates the entire pipeline: fetching real-time headlines, writing optimized scripts using LLMs, generating human-like speech with TTS, and adding relevant visuals to produce final news videos ready for automated publishing.`,
@@ -30,39 +63,6 @@ Features real-time mapping, SHAP interpretability, and health risk quantization.
         image: '/images/projects/pm-predictor.png',
         technologies: ['Python', 'XGBoost', 'SHAP', 'Node.js', 'React', 'TypeScript', 'Leaflet'],
         href: 'https://github.com/PrinceKumar731/PM_PREDICTOR',
-        period: 'Present',
-    },
-    {
-        id: 'colaboard',
-        title: 'Colaboard',
-        description: `A real-time collaborative whiteboard inspired by Excalidraw, designed for high-performance visual brainstorming. It features a Redis-backed state replay system, allowing users to see board history. Built with a Spring Boot backend and React frontend, it uses STOMP over WebSockets for seamless multi-user synchronization and room-based sharing.`,
-        shortDescription: `Real-time collaborative whiteboard with Redis-backed state replay and room-based sharing.
-Features live multi-user synchronization and a sleek drawing interface inspired by Excalidraw.`,
-        image: '/images/projects/colaboard.png',
-        technologies: ['React', 'Vite', 'Spring Boot', 'WebSocket', 'STOMP', 'Redis'],
-        href: 'https://github.com/PrinceKumar731/COLABOARD',
-        period: 'Present',
-    },
-    {
-        id: 'redstone',
-        title: 'RedStone',
-        description: `A desktop Minecraft server manager that removes the technical complexity of hosting local servers. It provides a modern web dashboard for creating and managing servers without manual configuration of JARs or Java runtimes. Built with Spring Boot and React, it includes a bundled Windows installer and custom Java runtime for a one-click experience.`,
-        shortDescription: `Desktop app with a web dashboard for one-click local Minecraft server hosting and management.
-Bundles Java runtime and Windows installer to simplify server setup for non-technical users.`,
-        image: '/images/projects/redstone.png',
-        technologies: ['Java', 'Spring Boot', 'React', 'Windows Installer'],
-        href: 'https://github.com/PrinceKumar731/REDSTONE',
-        period: 'Present',
-    },
-    {
-        id: 'cloudit',
-        title: 'CloudItz',
-        description: `A full-stack cloud media management platform for organized, folder-based photo storage. It provides real-time updates as media is processed and managed. The platform utilizes a Spring Boot backend for scalable data handling and integrates external storage APIs for secure, efficient media organization and retrieval.`,
-        shortDescription: `Full-stack cloud media manager for folder-based photo organization and real-time updates.
-Combines Spring Boot backend with React frontend for a scalable media management solution.`,
-        image: '/images/projects/cloudit.png',
-        technologies: ['Java', 'Spring Boot', 'React', 'JavaScript', 'Cloud Storage'],
-        href: 'https://github.com/PrinceKumar731/CLOUDITZ',
         period: 'Present',
     },
     {

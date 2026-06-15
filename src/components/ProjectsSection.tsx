@@ -5,10 +5,10 @@ import { projects } from '@/data/personalProjects';
 import Link from 'next/link';
 
 const featuredProjectIds = [
-    'newscaster-ai',
-    'redstone',
     'colaboard',
+    'redstone',
     'cloudit',
+    'newscaster-ai',
     'pm-predictor',
     'movieverse',
 ];
