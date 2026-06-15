@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* psuedo class */
+:root {
+  color-scheme: dark;
+  --background: rgb(23 23 23);
+  --foreground: rgb(248 250 252);
+  --primary: rgb(132 173 255);
+  --construction-text: rgb(254 240 138);
+}
+
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --background: rgb(255 255 255);
+  --foreground: rgb(15 23 42);
+  --primary: rgb(90, 122, 205);
+  --construction-text: rgb(180 83 9);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-construction-text: var(--construction-text);
+  --font-sans: var(--font-figtree);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* this is for system driven themeing when user has not manually chosen a theme */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --background: rgb(23 23 23);
+    --foreground: rgb(248 250 252);
+    --primary: rgb(125 211 252);
+    --construction-text: rgb(254 240 138);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-figtree), Arial, Helvetica, sans-serif;
+}

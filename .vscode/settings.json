@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.options": {},
+    "editor.defaultColorDecorators": "always"
+}

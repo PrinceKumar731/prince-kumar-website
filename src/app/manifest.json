@@ -1,0 +1,24 @@
+{
+    "name": "Prince Kumar - Portfolio",
+    "short_name": "Prince",
+    "description": "Portfolio of Prince Kumar, featuring software engineering projects and experience.",
+    "icons": [
+        {
+            "src": "/web-app-manifest-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/web-app-manifest-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "theme_color": "#7dd3fc",
+    "background_color": "#171717",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/"
+}
