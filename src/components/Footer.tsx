@@ -49,13 +49,13 @@ const Footer = () => {
                 {/* Location and Time */}
                 <div className='flex items-center gap-4 md:gap-6 text-xs md:text-sm order-1'>
                     <a
-                        href='https://www.google.com/maps/place/Austin,+TX'
+                        href='https://www.google.com/maps/place/Pune,+Maharashtra'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='flex items-center gap-1.5 md:gap-2 text-foreground hover:text-primary transition-colors duration-300 whitespace-nowrap'
                     >
                         <HiLocationMarker size={14} className='md:w-4 md:h-4' />
-                        <span>Austin, TX</span>
+                        <span>Pune, India</span>
                     </a>
 
                     <span className='whitespace-nowrap'>{time}</span>
