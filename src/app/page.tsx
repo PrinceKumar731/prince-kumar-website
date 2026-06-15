@@ -31,7 +31,6 @@ export default function Home() {
             <div id='end' className='min-h-screen bg-secondary py-16 px-4 flex items-center justify-center'>
                 <div className='max-w-6xl mx-auto px-6'>
                     <UnderConstructionNotice />
-                    <WebringRouter />
                 </div>
             </div>
         </>
