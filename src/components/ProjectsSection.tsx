@@ -5,16 +5,13 @@ import { projects } from '@/data/personalProjects';
 import Link from 'next/link';
 
 const featuredProjectIds = [
-    'ut-registration-plus',
-    'ut-distribution-viewer',
-    // 'cobbleguard',
-    'pear-desktop',
-    'slork-wars',
-    'guests',
-    'trove',
-    'accountech',
-    'last-stand-star-wars-fangame',
-    'earth-mobs',
+    'newscaster-ai',
+    'redstone',
+    'colaboard',
+    'cloudit',
+    'pm-predictor',
+    'deeplob',
+    'movieverse',
 ];
 
 /**
@@ -23,6 +20,10 @@ const featuredProjectIds = [
  * @returns Parsed date object
  */
 const parseStartDate = (period: string): Date => {
+    if (period.trim().toLowerCase() === 'present') {
+        return new Date();
+    }
+    
     if (period.trim().toLowerCase().startsWith('present')) {
         return new Date(9999, 11, 31);
     }

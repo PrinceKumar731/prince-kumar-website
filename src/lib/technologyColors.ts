@@ -85,9 +85,21 @@ export const technologyColors: Record<string, string> = {
     Vite: '#9467fd',
 
     // Other
-    APIs: '#f0abfc',
-    'Game Development': '#26dd26a9',
-    'Minecraft Forge API': '#c39563',
+    'Google Gemini': '#818cf8',
+    'Generative AI': '#f472b6',
+    'Multimodal AI': '#fb923c',
+    WebSocket: '#67e8f9',
+    'Real-time Sync': '#34d399',
+    'Cloud Storage': '#60a5fa',
+    'Data Analysis': '#fbbf24',
+    'Financial Modeling': '#818cf8',
+    'Machine Learning': '#6366f1',
+    'Deep Learning': '#4f46e5',
+    'Neural Networks': '#3b82f6',
+    'Financial Markets': '#10b981',
+    'TMDB API': '#01b4e4',
+    'Minecraft API': '#c39563',
+    Swing: '#fb923c',
 
     default: '#93c5fd',
 };
