@@ -10,7 +10,6 @@ const featuredProjectIds = [
     'colaboard',
     'cloudit',
     'pm-predictor',
-    'deeplob',
     'movieverse',
 ];
 

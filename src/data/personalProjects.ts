@@ -66,17 +66,6 @@ Features real-time mapping, SHAP interpretability, and health risk quantization.
         period: 'Present',
     },
     {
-        id: 'deeplob',
-        title: 'DeepLOB Forecaster',
-        description: `A framework for analyzing and backtesting short-term price movements using High-Frequency Limit Order Book (LOB) data. It features a live WebSocket client for 100ms Binance data ingestion and implements complex architectures like CNN-LSTMs (DeepLOB) and LightGBM. Includes a latency-aware trading simulator and a React-based dashboard styled after the Binance interface.`,
-        shortDescription: `High-frequency trading framework using Deep Learning (CNN-LSTM) to predict LOB dynamics.
-Includes live Binance data ingestion, latency-aware backtesting, and interactive dashboards.`,
-        image: '/images/projects/deeplob.png',
-        technologies: ['Python', 'PyTorch', 'FastAPI', 'React', 'WebSocket', 'Deep Learning'],
-        href: 'https://github.com/PrinceKumar731/DEEPLOB-FORECASTER',
-        period: 'Present',
-    },
-    {
         id: 'movieverse',
         title: 'MovieVerse',
         description: `MovieVerse is a modern movie discovery application that allows users to explore trending, popular, and top-rated films. It features a real-time search engine with debounced suggestions and categorized browsing for a premium user experience. Built using React and Vite for blazing-fast performance.`,

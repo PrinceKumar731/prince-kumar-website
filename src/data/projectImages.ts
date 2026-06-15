@@ -10,6 +10,5 @@ export const projectImages: Record<string, StaticImageData | string> = {
     'colaboard': '/images/projects/colaboard.png',
     'cloudit': '/images/projects/cloudit.png',
     'pm-predictor': '/images/projects/pm-predictor.png',
-    'deeplob': '/images/projects/deeplob.png',
     'movieverse': '/images/projects/movieverse.png',
 };
