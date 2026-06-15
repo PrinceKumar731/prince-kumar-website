@@ -97,9 +97,14 @@ export const technologyColors: Record<string, string> = {
     'Deep Learning': '#4f46e5',
     'Neural Networks': '#3b82f6',
     'Financial Markets': '#10b981',
-    'TMDB API': '#01b4e4',
-    'Minecraft API': '#c39563',
-    Swing: '#fb923c',
+    'Tailwind CSS': '#38bdf8',
+    Automation: '#94a3b8',
+    Redis: '#ef4444',
+    STOMP: '#f59e0b',
+    Vite: '#646cff',
+    SHAP: '#f472b6',
+    XGBoost: '#10b981',
+    Leaflet: '#199900',
 
     default: '#93c5fd',
 };
