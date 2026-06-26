@@ -8,6 +8,7 @@ import Att from '@/assets/pics/companies/att.svg';
 import Schwab from '@/assets/pics/companies/schwab.svg';
 import cp from '@/assets/pics/companies/cp.jpg';
 import Jilo from '@/assets/pics/companies/jilo.jpg';
+import isp from '@/assets/pics/companies/isp.png';
 import Slork from '@/assets/pics/companies/slork.jpg';
 import LHD from '@/assets/pics/companies/lhd.png';
 import { experiences } from '@/data/experiences';
@@ -27,39 +28,16 @@ const timelineCompanies: TimelineCompanyConfig[] = [
         fallbackCompanyLink: 'https://jilohealth.com',
     },
     {
+        company: 'Internshala',
+        logoSrc: isp,
+        logoAlt: 'Internshala company logo',
+        fallbackCompanyLink: 'https://internshala.com/',
+    },
+    {
         company: 'Competitive Programming Club',
         logoSrc: cp,
         logoAlt: 'Competitive Programming company logo',
         fallbackCompanyLink: 'https://www.linkedin.com/company/competitive-programming-club-ait/',
-    },
-    {
-        company: 'Charles Schwab',
-        logoSrc: Schwab,
-        logoAlt: 'Charles Schwab company logo',
-        fallbackCompanyLink: 'https://www.schwab.com',
-    },
-    {
-        company: 'AT&T',
-        logoSrc: Att,
-        logoAlt: 'AT&T company logo',
-        fallbackCompanyLink: 'https://www.att.com',
-    },
-    {
-        company: 'Longhorn Developers',
-        logoSrc: LHD,
-        logoAlt: 'Longhorn Developers company logo',
-        fallbackCompanyLink: 'https://github.com/Longhorn-Developers',
-    },
-    {
-        company: 'CYL-Tek',
-        logoSrc: Cyltek,
-        logoAlt: 'CYL-Tek company logo',
-        fallbackCompanyLink: 'https://www.cyl-tek.com/',
-    },
-    {
-        company: 'Seven Lakes Orchestras',
-        logoSrc: Slork,
-        logoAlt: 'Seven Lakes Orchestras logo',
     },
 ];
 
