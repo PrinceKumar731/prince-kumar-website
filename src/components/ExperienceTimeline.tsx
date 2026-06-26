@@ -6,6 +6,8 @@ import ExperienceTimelineEntry from './ExperienceTimelineEntry';
 import Cyltek from '@/assets/pics/companies/cyltek.jpg';
 import Att from '@/assets/pics/companies/att.svg';
 import Schwab from '@/assets/pics/companies/schwab.svg';
+import cp from '@/assets/pics/companies/cp.jpg';
+import Jilo from '@/assets/pics/companies/jilo.jpg';
 import Slork from '@/assets/pics/companies/slork.jpg';
 import LHD from '@/assets/pics/companies/lhd.png';
 import { experiences } from '@/data/experiences';
@@ -18,6 +20,18 @@ type TimelineCompanyConfig = {
 };
 
 const timelineCompanies: TimelineCompanyConfig[] = [
+    {
+        company: 'Jilo Health',
+        logoSrc: Jilo,
+        logoAlt: 'Jilo Health company logo',
+        fallbackCompanyLink: 'https://jilohealth.com',
+    },
+    {
+        company: 'Competitive Programming Club',
+        logoSrc: cp,
+        logoAlt: 'Competitive Programming company logo',
+        fallbackCompanyLink: 'https://www.linkedin.com/company/competitive-programming-club-ait/',
+    },
     {
         company: 'Charles Schwab',
         logoSrc: Schwab,

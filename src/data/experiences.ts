@@ -50,6 +50,57 @@ const experiencesData: ExperienceWithoutId[] = [
         skills: ['ETL', 'Supabase', 'PostgreSQL', 'MySQL', 'Node.js', 'System Architecture'],
     },
     {
+        title: 'Club Member',
+        company: 'Competitive Programming Club',
+        companyLink: 'https://www.linkedin.com/company/competitive-programming-club-ait//',
+        period: 'August 2024 – July 2025',
+        location: 'Pune, India',
+        positions: [
+            {
+                title: 'Club Member',
+                period: 'August 2024 – July 2025',
+                shortDescription:
+                    'Actively engaged in competitive programming by solving over 1,000 algorithmic problems across platforms like Codeforces, LeetCode, and CodeChef. Achieved a "Specialist" rank on Codeforces (max rating: 1595) and participated in major contests including the ICPC Amritapuri Site.',
+            },
+        ],
+        description: [
+            'Solved 1,000+ complex data structure and algorithmic problems on platforms such as Codeforces, LeetCode, and CodeChef, significantly enhancing problem-solving speed and optimization skills.',
+            'Attained a "Specialist" rating on Codeforces with a peak rating of 1595 by consistently performing well in global contests.',
+            'Represented the institution in high-stakes team competitions, including the ICPC Amritapuri Site and the Midnight Code Cup.',
+            'Collaborated with peers to facilitate club activities, contributing to the organization and execution of technical events like the national-level Codeft competition.',
+        ],
+        skills: [
+            'C++',
+            'Data Structures',
+            'Algorithms',
+            'Competitive Programming',
+            'Problem Solving',
+            'Team Collaboration',
+        ],
+    },
+    {
+        title: 'Software Engineer Intern',
+        company: 'Jilo Health',
+        companyLink: 'https://jilohealth.com/',
+        period: 'April 2026 – May 2026',
+        location: 'Pune, India',
+        positions: [
+            {
+                title: 'Software Engineer Intern',
+                period: 'April 2026 – May 2026',
+                shortDescription:
+                    'Designed and built a 0-to-1 ETL integration architecture with modular adapters (MySQL, PostgreSQL, REST) to sync unstandardized hospital databases to a strict Supabase schema. Automated a high-concurrency calling infrastructure by engineering a priority-based scheduler and campaign queue. Developed a custom scheduling algorithm to intelligently outbound tasks, significantly increasing system throughput and operational efficiency.',
+            },
+        ],
+        description: [
+            'Designed and built a 0-to-1 ETL integration architecture with modular adapters (MySQL, PostgreSQL, REST) to sync unstandardized hospital databases to a strict Supabase schema.',
+            'Automated a high-concurrency calling infrastructure by engineering a priority-based scheduler and campaign queue, optimizing task-dispatch system.',
+            'Developed a custom scheduling algorithm to intelligently outbound tasks, significantly increasing system throughput and operational efficiency.',
+            'Architected a stateful feedback-loop system to ingest real-time operational context, enabling dynamic updates to core data summaries for enhanced system intelligence.',
+        ],
+        skills: ['ETL', 'Supabase', 'PostgreSQL', 'MySQL', 'Node.js', 'System Architecture'],
+    },
+    {
         title: 'Software Engineer Intern - Login Management Team',
         company: 'Charles Schwab',
         companyLink: 'https://www.schwab.com/',
