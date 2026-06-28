@@ -22,6 +22,16 @@ Features live multi-user synchronization and a sleek drawing interface inspired 
         period: 'Present',
     },
     {
+        id: 'chatapp',
+        title: 'chatapp',
+        description: `A full-featured, real-time messaging platform inspired by WhatsApp. Designed for seamless individual and group communication, it features secure user authentication and a dynamic interface. Built with a robust Java/Spring Boot backend, it utilizes Spring WebSockets for low-latency messaging and Spring Data JPA for persistent storage.`,
+        shortDescription: `Real-time messaging platform with individual/group chat, secure JWT authentication, and a responsive WhatsApp-inspired interface.`,
+        image: '/images/projects/chatapp.png',
+        technologies: ['React', 'TypeScript', 'Java', 'Spring Boot', 'STOMP', 'PostgreSQL', 'Redux', 'JWT'],
+        href: 'https://github.com/PrinceKumar731/chat-app',
+        period: 'Present',
+    },
+    {
         id: 'redstone',
         title: 'RedStone',
         description: `A desktop Minecraft server manager that removes the technical complexity of hosting local servers. It provides a modern web dashboard for creating and managing servers without manual configuration of JARs or Java runtimes. Built with Spring Boot and Electron, it includes NGROK for easy tunneling, a bundled Windows installer, and custom Java runtime for a one-click experience.`,

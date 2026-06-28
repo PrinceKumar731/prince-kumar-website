@@ -6,9 +6,10 @@ import type { StaticImageData } from 'next/image';
 
 export const projectImages: Record<string, StaticImageData | string> = {
     'newscaster-ai': '/images/projects/newscaster-ai.png',
-    'redstone': '/images/projects/redstone.png',
-    'colaboard': '/images/projects/colaboard.png',
-    'cloudit': '/images/projects/cloudit.png',
+    redstone: '/images/projects/redstone.png',
+    colaboard: '/images/projects/colaboard.png',
+    cloudit: '/images/projects/cloudit.png',
     'pm-predictor': '/images/projects/pm-predictor.png',
-    'movieverse': '/images/projects/movieverse.png',
+    movieverse: '/images/projects/movieverse.png',
+    chatapp: '/images/projects/chatapp.png',
 };

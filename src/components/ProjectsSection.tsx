@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 const featuredProjectIds = [
     'colaboard',
+    'chatapp',
     'redstone',
     'cloudit',
     'newscaster-ai',
@@ -22,7 +23,7 @@ const parseStartDate = (period: string): Date => {
     if (period.trim().toLowerCase() === 'present') {
         return new Date();
     }
-    
+
     if (period.trim().toLowerCase().startsWith('present')) {
         return new Date(9999, 11, 31);
     }
